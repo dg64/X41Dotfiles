@@ -1,0 +1,125 @@
+<openbox_pipe_menu>
+  <item label="Open in browser">
+    <action name="Execute">
+      <execute>
+        xdg-open /home/dg
+      </execute>
+    </action>
+  </item>
+<separator />
+<menu id="/home/dg/.cache" label=".cache" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/.cache" />
+<menu id="/home/dg/.config" label=".config" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/.config" />
+<menu id="/home/dg/.gnupg" label=".gnupg" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/.gnupg" />
+<menu id="/home/dg/.icons" label=".icons" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/.icons" />
+<menu id="/home/dg/.local" label=".local" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/.local" />
+<menu id="/home/dg/.mono" label=".mono" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/.mono" />
+<menu id="/home/dg/.mozilla" label=".mozilla" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/.mozilla" />
+<menu id="/home/dg/.oh-my-bash" label=".oh-my-bash" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/.oh-my-bash" />
+<menu id="/home/dg/.surf" label=".surf" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/.surf" />
+<menu id="/home/dg/.thumbnails" label=".thumbnails" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/.thumbnails" />
+<menu id="/home/dg/.vim" label=".vim" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/.vim" />
+<menu id="/home/dg/.wicd" label=".wicd" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/.wicd" />
+<menu id="/home/dg/Artdeco" label="Artdeco" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/Artdeco" />
+<menu id="/home/dg/Conky" label="Conky" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/Conky" />
+<menu id="/home/dg/curseradio" label="curseradio" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/curseradio" />
+<menu id="/home/dg/Debian" label="Debian" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/Debian" />
+<menu id="/home/dg/Desktop" label="Desktop" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/Desktop" />
+<menu id="/home/dg/Documents" label="Documents" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/Documents" />
+<menu id="/home/dg/Downloads" label="Downloads" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/Downloads" />
+<menu id="/home/dg/Music" label="Music" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/Music" />
+<menu id="/home/dg/music" label="music" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/music" />
+<menu id="/home/dg/nerd-fonts" label="nerd-fonts" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/nerd-fonts" />
+<menu id="/home/dg/NewArtDeco" label="NewArtDeco" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/NewArtDeco" />
+<menu id="/home/dg/Pictures" label="Pictures" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/Pictures" />
+<menu id="/home/dg/Public" label="Public" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/Public" />
+<menu id="/home/dg/scripts" label="scripts" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/scripts" />
+<menu id="/home/dg/Templates" label="Templates" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/Templates" />
+<menu id="/home/dg/Tint2" label="Tint2" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/Tint2" />
+<menu id="/home/dg/Videos" label="Videos" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/Videos" />
+<menu id="/home/dg/Wallpapers" label="Wallpapers" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/Wallpapers" />
+<menu id="/home/dg/X61Config" label="X61Config" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home/dg/X61Config" />
+  <item label=".bash__history">
+    <action name="Execute">
+      <execute>
+        xdg-open /home/dg/.bash_history
+      </execute>
+    </action>
+  </item>
+  <item label=".bashrc">
+    <action name="Execute">
+      <execute>
+        xdg-open /home/dg/.bashrc
+      </execute>
+    </action>
+  </item>
+  <item label=".gtkrc-2.0">
+    <action name="Execute">
+      <execute>
+        xdg-open /home/dg/.gtkrc-2.0
+      </execute>
+    </action>
+  </item>
+  <item label=".lesshst">
+    <action name="Execute">
+      <execute>
+        xdg-open /home/dg/.lesshst
+      </execute>
+    </action>
+  </item>
+  <item label=".osh-update">
+    <action name="Execute">
+      <execute>
+        xdg-open /home/dg/.osh-update
+      </execute>
+    </action>
+  </item>
+  <item label=".sdirs">
+    <action name="Execute">
+      <execute>
+        xdg-open /home/dg/.sdirs
+      </execute>
+    </action>
+  </item>
+  <item label=".viminfo">
+    <action name="Execute">
+      <execute>
+        xdg-open /home/dg/.viminfo
+      </execute>
+    </action>
+  </item>
+  <item label=".vimrc">
+    <action name="Execute">
+      <execute>
+        xdg-open /home/dg/.vimrc
+      </execute>
+    </action>
+  </item>
+  <item label=".Xauthority">
+    <action name="Execute">
+      <execute>
+        xdg-open /home/dg/.Xauthority
+      </execute>
+    </action>
+  </item>
+  <item label=".xsession-errors">
+    <action name="Execute">
+      <execute>
+        xdg-open /home/dg/.xsession-errors
+      </execute>
+    </action>
+  </item>
+  <item label=".xsession-errors.old">
+    <action name="Execute">
+      <execute>
+        xdg-open /home/dg/.xsession-errors.old
+      </execute>
+    </action>
+  </item>
+  <item label="a.sh">
+    <action name="Execute">
+      <execute>
+        xdg-open /home/dg/a.sh
+      </execute>
+    </action>
+  </item>
+</openbox_pipe_menu>

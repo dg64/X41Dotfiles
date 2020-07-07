@@ -1,0 +1,99 @@
+set folder		=	imaps://imap.yandex.ru:993
+set smtp_url		=	smtps://dgalizia@yandex.ru@smtp.yandex.ru:465
+
+set imap_user		=	dgalizia@yandex.ru
+set imap_pass		=	teroknor
+set smtp_user		=	dgalizia@yandex.ru
+set smtp_pass		=	teroknor
+
+set from		=	dgalizia@yandex.ru
+set realname		=	"Domenico Galizia"
+set spoolfile		=	"+INBOX"
+set record		=	"+Sent"
+set trash		=	"+Trash"
+set postponed		=	"+Drafts"
+
+set mail_check		=	90
+set timeout		=	15
+set ssl_starttls	=	yes
+set ssl_force_tls	=	yes
+set use_from		=	yes
+#set smtp_authenticators	=	"gssapi:login"
+set smtp_authenticators	=	"plain"
+
+set send_charset	=	"us-ascii:utf-8"
+set sort		=	"reverse-date"
+set pager_index_lines	=	10
+set pager_context	=	3
+set pager_stop		=	yes
+set editor 		= 	vim
+set mailcap_path 	=	 ~/.config/neomutt/mailcap
+set print_command	=	"/usr/bin/muttprint %s -p Epson_Stylus_SX420W" 
+set signature		=	"~/.config/neomutt/dgalizia@yandex.ru.signature"
+
+set imap_check_subscribed
+auto_view text/html
+alternative_order text/plain text/html
+
+# View attachments properly.
+bind attach <return> view-mailcap
+set fast_reply           	# skip to compose when replying
+set fcc_attach           	# save attachments with the body
+unset mime_forward       	# forward attachments as part of body
+set forward_format = "Fwd: %s"  # format of subject when forwarding
+set forward_decode              # decode when forwarding
+set forward_quote               # include message in forwards
+set reverse_name                # reply as whomever it was to
+set include                     # include message in replies
+
+# Scan the mail for links and let me open them with my browser
+macro index,pager \cb <pipe-entry>'urlview'<enter> 'Follow links with urlview'
+
+# Abook
+set query_command = "abook --mutt-query '%s'"
+macro generic,index,pager \ca "<shell-escape>abook<return>" "launch abook"
+macro index,pager a "<pipe-message>abook --add-email-quiet<return>" "Add this sender to Abook"
+bind editor <Tab> complete-query
+
+# Sidebar
+source sidebarrc
+
+named-mailboxes "Inbox" =INBOX 
+named-mailboxes "Anglomania" =Anglomania 
+named-mailboxes "DIY" =DIY 
+named-mailboxes "Gett" =Gett 
+named-mailboxes "IB Diploma" "=IBDiploma" 
+named-mailboxes "IBGenius" =IBGenius 
+named-mailboxes "Integration21" =Integration21 
+named-mailboxes "Raffeisen" =Raffeisen 
+named-mailboxes "Лента" =Лента 
+named-mailboxes "Мой Круг" ="МойКруг" 
+named-mailboxes "Преподавание" =Преподавание 
+named-mailboxes "Sent" =Sent 
+named-mailboxes "Trash" =Trash 
+named-mailboxes "Draft" =Drafts
+named-mailboxes "Spam" =Spam
+
+#mailboxes =INBOX =SentBox =Trash =DraftBox =Spam =Ancor =HH =LinkedIn
+#mailboxes =INBOX 
+#mailboxes =Ancor
+#mailboxes =HH
+#mailboxes =LinkedIn
+#mailboxes =SentBox 
+#mailboxes =Trash 
+#mailboxes =DraftBox 
+#mailboxes =Spam
+
+# some sane vim-like keybindings
+bind index,pager k previous-entry
+bind index,pager j next-entry
+bind index,pager g noop
+bind index,pager \Cu half-up
+bind index,pager \Cd half-down
+bind pager gg top
+bind index gg first-entry
+bind pager G bottom
+bind index G last-entry
+
+# Colors
+source ~/.config/neomutt/example.neomuttrc

@@ -1,0 +1,19 @@
+q
+add "Adele - Hello.mp3"
+help
+help add
+a
+colorscheme cyan
+colorscheme solarized-dark
+colorscheme zenburn
+colorscheme night
+colorscheme jellybeans
+colorscheme gruvbox
+colorscheme default
+colorscheme gray-88
+bind common <key> colorscheme
+colorscheme
+heko
+colorscheme xterm
+colorscheme green-mono-88
+a ~/music

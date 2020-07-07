@@ -1,0 +1,59 @@
+<openbox_pipe_menu>
+  <item label="Open in browser">
+    <action name="Execute">
+      <execute>
+        xdg-open /
+      </execute>
+    </action>
+  </item>
+<separator />
+<menu id="/bin" label="bin" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /bin" />
+<menu id="/boot" label="boot" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /boot" />
+<menu id="/dev" label="dev" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /dev" />
+<menu id="/etc" label="etc" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /etc" />
+<menu id="/home" label="home" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /home" />
+<menu id="/lib" label="lib" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /lib" />
+<menu id="/lib64" label="lib64" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /lib64" />
+<menu id="/libx32" label="libx32" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /libx32" />
+<menu id="/lost+found" label="lost+found" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /lost+found" />
+<menu id="/media" label="media" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /media" />
+<menu id="/mnt" label="mnt" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /mnt" />
+<menu id="/opt" label="opt" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /opt" />
+<menu id="/proc" label="proc" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /proc" />
+<menu id="/root" label="root" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /root" />
+<menu id="/run" label="run" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /run" />
+<menu id="/sbin" label="sbin" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /sbin" />
+<menu id="/srv" label="srv" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /srv" />
+<menu id="/sys" label="sys" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /sys" />
+<menu id="/tmp" label="tmp" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /tmp" />
+<menu id="/usr" label="usr" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /usr" />
+<menu id="/var" label="var" execute="/home/dg/.config/openbox/scripts/dirsmenu.pl /var" />
+  <item label="initrd.img">
+    <action name="Execute">
+      <execute>
+        xdg-open /initrd.img
+      </execute>
+    </action>
+  </item>
+  <item label="initrd.img.old">
+    <action name="Execute">
+      <execute>
+        xdg-open /initrd.img.old
+      </execute>
+    </action>
+  </item>
+  <item label="vmlinuz">
+    <action name="Execute">
+      <execute>
+        xdg-open /vmlinuz
+      </execute>
+    </action>
+  </item>
+  <item label="vmlinuz.old">
+    <action name="Execute">
+      <execute>
+        xdg-open /vmlinuz.old
+      </execute>
+    </action>
+  </item>
+</openbox_pipe_menu>
