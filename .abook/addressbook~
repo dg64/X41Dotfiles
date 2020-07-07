@@ -1,0 +1,286 @@
+# abook addressbook file
+
+[format]
+program=abook
+version=0.6.1
+
+
+[0]
+name=Adrienn Ardey - PMi Group
+email=adriennardey@pmiconsult.com
+
+[1]
+name=Alan O'Brien
+email=alan@lcaconsulting.ie
+
+[2]
+name=Alessandro Forestan
+email=AForestan@costalev.com
+
+[3]
+name=Andreas Poller
+email=andreas.poeller@homag.de
+
+[4]
+name=Andrzej
+email=leshak@stolplit.ru
+
+[5]
+name=Antonio Clemente
+email=a.clemente@biware.it
+
+[6]
+name=Artem Pastushkov
+email=arpastushkov@pbaconsult.com
+
+[7]
+name=Boris Abramov
+email=abramov@stolline.ru
+
+[8]
+name=Boris Voloe
+email=boris.m.volpe@gmail.com
+
+[9]
+name=Commerciale Estero Lordflex's
+email=commestero@lordflex.com
+
+[10]
+name=Cristina Galizia
+email=cgalizia91@gmail.com
+
+[11]
+name=cvadmin
+email=cvadmin@rdlcorp.com
+
+[12]
+name=Daniele Pedroni
+email=costalev@rambler.ru
+
+[13]
+name=Davide Riboni
+email=davide.riboni@gigroup.com
+
+[14]
+name=Domenico Galizia
+email=dgalizia64@gmail.com
+
+[15]
+name=Ermilova, Elena
+email=eermilova@luxoft.com
+
+[16]
+name=Elizaveta Huber
+email=cosm-cosm@yandex.ru
+
+[17]
+name=Frank Schmid
+email=frank.schmid@homag-esolution.com
+
+[18]
+name=Gerardo Fabrizio
+email=g.fabrizio@opendatasrl.it
+
+[19]
+name=Germano Reggiani
+email=grereg@alice.it
+
+[20]
+name=Giovanni Stornante
+email=gstornante@gmail.com
+
+[21]
+name=Hubert Brejtfus
+email=homag76@gmail.com
+
+[22]
+name=Jeremy Florat
+email=florat@coberon-ru.com
+
+[23]
+name=Kirill N. Tukhtikov
+email=tukhtikov@pbaconsult.com
+
+[24]
+name=Kirill N. Tukhtikov
+email=tukhtikov@pbaconsult.com
+
+[25]
+name=Krakow Taxi
+email=office@krakowdirect.com
+
+[26]
+name=Kristina Selina
+email=kristina_selina@sberbank-cib.ru
+
+[27]
+name=KW@KWPetroleum.com
+email=KW@KWPetroleum.com
+
+[28]
+name=Luca Maletti
+email=lmaletti@gruppostratos.com
+
+[29]
+name=Marco Reginato
+email=reginato@simemrussia.ru
+
+[30]
+name=Marina Galizia
+email=leonexm@rambler.ru
+
+[31]
+name=Mario Ing. Moretti
+email=mmoretti@costalev.com
+
+[32]
+name=Mariusz Frej
+email=incognito192@interia.pl
+
+[33]
+name=Maurizio Fabrizio
+email=m.fabrizio@opendatasrl.it
+
+[34]
+name=Mitko Orcev
+email=m.orcev@opendatasrl.it
+
+[35]
+name=Natalia
+email=makarova@stolline.ru
+
+[36]
+name=nino
+email=nino@degirolami.ru
+
+[37]
+name=Palagin Oleg Nikolaevich.
+email=opalagin@stolline.ru
+
+[38]
+name=Patrick Ade
+email=p.ade@buerkle-gmbh.de
+
+[39]
+name=Pietropaolo Francesco
+email=francesco.pietropaolo@unicreditgroup.eu
+
+[40]
+name=Podezva Igor Valentinovich
+email=podezva@stolline.ru
+
+[41]
+name=Raquel Mediavilla Garcia
+email=RAQUEL.MEDIAVILLA@secrecruitment.com
+
+[42]
+name=Rohde, Rebecca
+email=rebecca.rohde@acs-inc.com
+
+[43]
+name=Recepcja Hotel Piwnica Rycerska
+email=poczta@rycerska.pl
+
+[44]
+name=Robert Raszkowski
+email=raszkowski@stolline.ru
+
+[45]
+name=Roberto Baù
+email=bau.roberto@gmail.com
+
+[46]
+name=Taras Rybak
+email=taras@sandtongroup.com
+
+[47]
+name=Teresa Ambrosini
+email=TAmbrosini@buzziunicem.it
+
+[48]
+name=Vincenzo Ferrara
+email=ferrara@cosmedi.it
+
+[49]
+name=Weronika Juszczak
+email=wjuszczak@sowelo.eu
+
+[50]
+name=Skushnikova, Yanina
+email=yanina.skushnikova@lukoil.com
+
+[51]
+name=Александр Кильяков
+email=kilyakov@sdi-solution.ru
+
+[52]
+name=Александр Мудрицкий
+email=maradonna@stolline.ru
+
+[53]
+name=Андрей Анатольевич Поляков
+email=polyakov@stolline.ru
+
+[54]
+name=Андрей Петрович Цветковский
+email=atsv@stolline.ru
+
+[55]
+name=Анна Игоревна Афанасьева
+email=ania1507@stolline.ru
+
+[56]
+name=Валерий Дмитриевич Сергиенко
+email=sergienko@stolline.ru
+
+[57]
+name=Галина Викторовна Овсянникова
+email=gala@stolline.ru
+
+[58]
+name=Геннадий Бондурин
+email=bondurin@gmail.com
+
+[59]
+name=Евгений Вячеславович Зинин
+email=zinin@stolline.ru
+
+[60]
+name=Игорь Романович Карпа
+email=ihor@stolline.ru
+
+[61]
+name=Ирина Черепанова
+email=fiona@pochtamt.ru
+
+[62]
+name=Марина Задерей
+email=snushka1@yandex.ru
+
+[63]
+name=Марина Сергеевна Потовина
+email=marina@stolline.ru
+
+[64]
+name=Михаил Викторович Чураков
+email=michael@stolline.ru
+
+[65]
+name=Пётр Ваго
+email=peter.vago@tmf-group.com
+
+[66]
+name=Сергей Горохов
+email=gorokhov@sdi-solution.ru
+
+[67]
+name=Славомир ЛешаК
+email=s-lesiak@stolplit.ru
+
+[68]
+name=Яна Маленина
+email=milany06_90@mail.ru
+
+[69]
+name=gali
+
